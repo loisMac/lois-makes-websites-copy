@@ -55,11 +55,17 @@ body {
     padding: 80px 20px;
   }
   
-  .spline-container iframe {
+  .spline-desktop iframe {
     max-width: 600px;
     border-radius: 20px;
-    
-  }
+    display: block;
+    text-align: center;
+    }
+
+    .lottie-mobile {
+        display: none;
+        text-align: center;
+      }
 
   @media (max-width: 992px) { 
 
@@ -67,10 +73,13 @@ body {
      max-width: 100%;
     }
 
-    .spline-container iframe {
-        max-width: 90%;
-        height: 320px;
+    .spline-desktop iframe {
+        display:none
     }
+
+    .lottie-mobile {
+        display: block;
+      }
 
     .logo {
         width: 80px;
@@ -78,10 +87,13 @@ body {
   }
 
   @media (max-width: 768px) {
-    .spline-container iframe {
-        max-width: 90%;
-        height: 240px;
+    .spline-desktop iframe {
+        display:none
     }
+
+    .lottie-mobile {
+        display: block;
+      }
   }
     
   
