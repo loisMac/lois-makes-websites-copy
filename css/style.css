@@ -99,7 +99,11 @@ body {
   .about .row {
     justify-content: center;
     text-align: left; /* keep text aligned normally */
-  } 
+  }
+  
+  .contact-form {
+    max-width: 500px;
+  }
 
   .card-title {
     font-family: "Gaegu", sans-serif;
