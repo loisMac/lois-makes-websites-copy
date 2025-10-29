@@ -96,8 +96,11 @@ body {
       }
   }
     
-  
-  
+  .about .row {
+    justify-content: center;
+    text-align: left; /* keep text aligned normally */
+  } 
+
   .card-title {
     font-family: "Gaegu", sans-serif;
     color: #2f4150;
