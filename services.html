@@ -75,5 +75,19 @@
   <footer class="text-center py-4 small text-muted">
     © 2025 lois makes websites
   </footer>
+  <script>
+    // Close mobile navbar when a link is clicked
+    const navLinks = document.querySelectorAll('.nav-link');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+  
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (navbarCollapse.classList.contains('show')) {
+          const bsCollapse = new bootstrap.Collapse(navbarCollapse);
+          bsCollapse.hide();
+        }
+      });
+    });
+  </script>
 </body>
 </html>
