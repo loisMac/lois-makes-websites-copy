@@ -1,0 +1,107 @@
+body {
+    background-color: #fdfcf6;
+    font-family: "Dosis", sans-serif;
+    color: #2f4150;
+  }
+
+  .logo {
+    width: 120px;
+    transition: ease-in-out 0.3s;
+  }
+
+  .logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  h1, h2, h5 {
+    font-family: "Gaegu", sans-serif;
+    color: #2f4150;
+  }
+  
+  .navbar-brand {
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1.8rem;
+    color: #2f4150 !important;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    color: #6f91a7 !important;
+    margin: 0 8px;
+    transition: all 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: #2f4150 !important;
+  }
+  
+  .btn {
+    background-color: #6f91a7;
+    color: #fdfcf6;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 24px;
+    font-family: "Dosis", sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2f4150;
+    color: #fdfcf6;
+  }
+  
+  .hero {
+    padding: 80px 20px;
+  }
+  
+  .spline-container iframe {
+    max-width: 600px;
+    border-radius: 20px;
+    
+  }
+
+  @media (max-width: 992px) { 
+
+    body{
+     max-width: 100%;
+    }
+
+    .spline-container iframe {
+        max-width: 90%;
+        height: 320px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .spline-container iframe {
+        max-width: 90%;
+        height: 240px;
+    }
+  }
+    
+  
+  
+  .card-title {
+    font-family: "Gaegu", sans-serif;
+    color: #2f4150;
+  }
+
+  #typewriter::after {
+    content: '|';
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  
+  
+  footer {
+    background: none;
+  }
+  
