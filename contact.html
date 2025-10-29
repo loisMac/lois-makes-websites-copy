@@ -28,24 +28,22 @@
     <h2 class="text-center mb-4">get in touch</h2>
     <p class="text-center mb-5">want to collaborate, chat about a project, or say hi? i’d love to hear from you.</p>
 
-    <form action="https://formspree.io/f/xvgvrped"
-    method="POST"
-    class="mx-auto contact-form"
-    >
-      <div class="mb-3">
-        <label class="form-label">name</label>
-        <input type="text" class="form-control rounded-pill">
-      </div>
-      <div class="mb-3">
-        <label class="form-label">email</label>
-        <input type="email" class="form-control rounded-pill">
-      </div>
-      <div class="mb-3">
-        <label class="form-label">message</label>
-        <textarea class="form-control rounded-4" rows="4"></textarea>
-      </div>
-      <button type="submit" class="btn w-100">send message</button>
-    </form>
+    <form action="https://formspree.io/f/xvgvrped" method="post" class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+          <label class="form-label">name</label>
+          <input type="text" name="name" class="form-control rounded-pill" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">email</label>
+          <input type="email" name="email" class="form-control rounded-pill" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">message</label>
+          <textarea name="message" class="form-control rounded-4" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn w-100">send message</button>
+      </form>
+      
   </section>
 
   <footer class="text-center py-4 small text-muted">
