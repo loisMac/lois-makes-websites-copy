@@ -173,6 +173,29 @@ form {
     content: '|';
     animation: blink 1s infinite;
   }
+
+  /* Services page styling */
+.services h2 {
+    text-transform: lowercase;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border: 1.5px solid #d1e3e1;
+    transition: all 0.3s ease;
+  }
+  
+  .service-card h5 {
+    font-family: "Gaegu", sans-serif;
+    color: #2f4150;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(47, 65, 80, 0.1);
+    border-color: #6f91a7;
+  }
+  
   
   @keyframes blink {
     50% { opacity: 0; }
